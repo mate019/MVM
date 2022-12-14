@@ -17,35 +17,35 @@ body {
 }
 
 .center .logo {
-  width: 160px;
+  width: 140px;
 }
 
 .buttons {
   font-size: 25px;
   text-align: center;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 95px;
 }
 
 .buttons .afip {
   text-decoration: none;
   color: #fff;
-  background-color: rgb(75, 83, 110);
+  background-color: rgb(96, 95, 104);
   border-radius: 50px;
-  padding: 10px;
-  margin-right: 150px;
+  padding: 15px 35px;
+  margin-right: 180px;
 }
 
 .buttons .afip:hover {
-  background-color: rgb(23, 25, 31);
+  background-color: rgb(26, 29, 37);
 }
 
 .buttons .mail {
   text-decoration: none;
   color: #fff;
-  background-color: rgb(57, 65, 80);
+  background-color: rgb(89, 88, 95);
   border-radius: 50px;
-  padding: 10px;
+  padding: 15px 40px;
 }
 
 .buttons .mail:hover {
@@ -55,28 +55,30 @@ body {
 .details {
   display: flex;
   justify-content: center;
-
 }
 
-.detail-afip {
+.details .detail-afip {
   background-color: rgb(195, 209, 235);
-  margin-top: 65px;
+  margin-top: 50px;
   justify-content: center;
   margin-right: 150px;
+  margin-left: 6.5px;
 }
 
-.detail-afip ol {
+.details .detail-afip ol {
   list-style-type: disc;
   text-align: left;
+  padding: 20px 35px;
 }
 
-.detail-mail {
+.details .detail-mail {
   background-color: rgb(195, 209, 235);
-  margin-top: 65px;
+  margin-top: 50px;
   justify-content: center;
 }
 
-.detail-mail ol {
+.details .detail-mail ol {
   list-style-type: disc;
   text-align: left;
+  padding: 20px 24px;
 }
