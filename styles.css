@@ -53,12 +53,13 @@ body {
 }
 
 .details {
+  line-height: 24px;
   display: flex;
   justify-content: center;
 }
 
 .details .detail-afip {
-  background-color: rgb(195, 209, 235);
+  background-color: rgba(195, 209, 235, 0.836);
   margin-top: 50px;
   justify-content: center;
   margin-right: 150px;
@@ -72,7 +73,7 @@ body {
 }
 
 .details .detail-mail {
-  background-color: rgb(195, 209, 235);
+  background-color: rgba(195, 209, 235, 0.836);
   margin-top: 50px;
   justify-content: center;
 }
