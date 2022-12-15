@@ -1,8 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  overflow: auto;
-  scroll-behavior: smooth;
+  overflow: hidden;
 }
 
 .center {
@@ -11,13 +10,15 @@ body {
 
 .center h1 {
   font-size: 35px;
-  background-color: rgb(65, 73, 102);
+  background: rgb(70, 77, 102);
   color: #fff;
   padding: 15px;
+  margin: 0;
 }
 
 .center .logo {
   width: 140px;
+  margin-top: 20px;
 }
 
 .buttons {
@@ -30,7 +31,7 @@ body {
 .buttons .afip {
   text-decoration: none;
   color: #fff;
-  background-color: rgb(96, 95, 104);
+  background: rgb(96, 95, 104);
   border-radius: 50px;
   padding: 15px 35px;
   margin-right: 180px;
@@ -59,9 +60,9 @@ body {
 }
 
 .details .detail-afip {
-  background-color: rgba(195, 209, 235, 0.836);
-  margin-top: 50px;
+  background: rgba(195, 209, 235, 0.418);
   justify-content: center;
+  margin-top: 50px;
   margin-right: 150px;
   margin-left: 6.5px;
 }
@@ -69,11 +70,11 @@ body {
 .details .detail-afip ol {
   list-style-type: disc;
   text-align: left;
-  padding: 20px 35px;
+  padding: 5px 30px;
 }
 
 .details .detail-mail {
-  background-color: rgba(195, 209, 235, 0.836);
+  background-color: rgba(195, 209, 235, 0.418);
   margin-top: 50px;
   justify-content: center;
 }
@@ -81,5 +82,5 @@ body {
 .details .detail-mail ol {
   list-style-type: disc;
   text-align: left;
-  padding: 20px 24px;
+  padding: 5px 30px;
 }
