@@ -10,7 +10,7 @@ body {
 }
 
 .center h1 {
-  font-size: 37px;
+  font-size: 35px;
   background-color: rgb(65, 73, 102);
   color: #fff;
   padding: 15px;
@@ -24,7 +24,7 @@ body {
   font-size: 25px;
   text-align: center;
   justify-content: center;
-  margin-top: 95px;
+  margin-top: 75px;
 }
 
 .buttons .afip {
@@ -53,7 +53,7 @@ body {
 }
 
 .details {
-  line-height: 24px;
+  line-height: 26px;
   display: flex;
   justify-content: center;
 }
